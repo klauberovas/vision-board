@@ -78,6 +78,10 @@ ol {
   padding: 20px 0;
 }
 
+.vision-board__footer p {
+  margin: 0;
+}
+
 .vision-board__link {
   text-decoration: none;
   color: #000;
