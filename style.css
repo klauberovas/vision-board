@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.vision-board__main {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.vision-board__main,
+.vision-board__footer {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.vision-board__image {
+  flex: 0 1 calc(100% - 20px);
+  max-width: 100%;
+  min-width: 0;
+  min-height: auto;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
