@@ -8,52 +8,75 @@
   </head>
   <body>
     <main class="vision-board__main">
-      <h1>Vision board digitální akademie</h1>
+      <div class="vision-board__title">
+        <h1>Vision board</h1>
+        <h3>Digitální akademie</h3>
+      </div>
+
       <div class="container">
+        <article class="vision-board__intro grid__item">
+          Během DA bych se ráda rekvalifikovala s cílem najít si v tomto oboru
+          uplatnění a po ukončení se nadále vzdělávat v dalších technologiích,
+          které jsou s fronted vývojem spjaté.
+        </article>
+
         <img
-          class="vision-board__image"
+          class="vision-board__image grid__item"
           src="images/digital-nomad.jpg"
           alt="Digital nomad"
         />
+
         <img
-          class="vision-board__image"
+          class="vision-board__image grid__item"
+          src="images/programming.jpg"
+          alt="Development enviroment in notebook"
+        />
+
+        <ol class="vision-board__technology grid__item">
+          <h2 class="vision-board__title">Technologie DA web</h2>
+          <li>
+            <img class="vision-board__icon" src="images/html.png" alt="" /> Html
+          </li>
+          <li>
+            <img class="vision-board__icon" src="images/git.png" alt="" /> Git
+          </li>
+          <li>
+            <img
+              class="vision-board__icon"
+              src="images/java-script.png"
+              alt=""
+            />
+            Javascript
+          </li>
+          <li>
+            <img class="vision-board__icon" src="images/react.png" alt="" />
+            React
+          </li>
+        </ol>
+
+        <ul class="vision-board__goals grid__item">
+          <h2 class="vision-board__title">Na co se v Akademii těším?</h2>
+          <li>že, si rozšířím obzory</li>
+          <li>že, poznám inspirující lidi</li>
+          <li>že, navážu nové kontakty</li>
+          <li>že, se naučím používat technologie v praxi</li>
+          <li><strong>až to dokončím!</strong></li>
+        </ul>
+
+        <img
+          class="vision-board__image grid__item"
           src="images/gradution.jpg"
           alt="University gradution"
         />
-        <img
-          class="vision-board__image"
-          src="images/home-office.jpg"
-          alt="Home office with children"
-        />
       </div>
-
-      <article class="vision-board__intro">
-        Během DA bych se ráda rekvalifikovala s cílem najít si v tomto oboru
-        uplatnění a po ukončení se nadále vzdělávat v dalších technologiích,
-        které jsou s fronted vývojem spjaté.
-      </article>
-
-      <ol class="vision-board__technology">
-        <h2>Technologie DA web</h2>
-        <li>Html</li>
-        <li>Git</li>
-        <li>Javascript</li>
-        <li>React</li>
-      </ol>
-
-      <ul class="vision-board__goals">
-        <h2>Na co se v Akademii těším?</h2>
-        <li>že, si rozšířím obzory</li>
-        <li>že, poznám inspirující lidi</li>
-        <li>že, navážu nové kontakty</li>
-        <li>že, se naučím používat technologie v praxi</li>
-        <li><strong>až to dokončím!</strong></li>
-      </ul>
     </main>
+
     <footer class="vision-board__footer">
+      <p>©copyright Šárka Klauberová</p>
       <p>
-        ©copyright Šárka Klauberová
-        <a href="https://github.com/klauberovas">GitHub</a>
+        <a class="vision-board__link" href="https://github.com/klauberovas"
+          >GitHub</a
+        >
       </p>
     </footer>
   </body>
